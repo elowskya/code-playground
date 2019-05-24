@@ -1,14 +1,19 @@
-.container-fluid {
+body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-align: right;
+    text-align: center;
     background-color: #FCFFF7;
-    padding: 5%;
-}
-
-nav {
-    text-align: right;
 }
 
 .indexImage {
-    padding: 4%;
+    height: 80vh;
+}
+
+/* Make the image fully responsive */
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
+
+footer {
+    background-color: lightgreen;
 }
