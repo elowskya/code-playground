@@ -1,0 +1,14 @@
+.container-fluid {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: right;
+    background-color: #FCFFF7;
+    padding: 5%;
+}
+
+nav {
+    text-align: right;
+}
+
+.indexImage {
+    padding: 4%;
+}
