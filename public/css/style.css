@@ -1,10 +1,26 @@
+header {
+    padding: 1%;
+    background-color: whitesmoke;
+}
 
+nav {
+    position: fixed;
+    widows: 100%;
+    background-color: lightslategray;
+}
 
 body {
     font-family: 'Quicksand', sans-serif;
     text-align: center;
     background-color: #FCFFF7;
 }
+
+.container {
+    background-color: whitesmoke;
+    margin: 2%;
+    padding: 2%;
+}
+
 
 h1 {
     font-size: 10vh;
@@ -15,33 +31,37 @@ h2 {
     /* font-family: 'Playball', cursive; */
 
     font-family: 'Quicksand', sans-serif;
-    margin: 3%; 
+    /* margin: 3%;  */
 
 }
 
 p {
     margin-right: 5%;
     margin-left: 5%;
+    font-size: 3vh;
 }
 
 .indexImage1 {
     background-image: url("../images/adam-birkett-295373-unsplash.jpg");
+    background-size: 100%auto;
+    /* opacity: .7; */
+    /* overflow: hidden; */
     background-attachment: fixed;
+    padding: 3%;
 }
-
-/* .indexServices {
-    background-image: url("../images/liana-mikah-343240-unsplash.jpg");
-    background-attachment: fixed;
-} */
 
 .indexSchedule {
     background-image: url("../images/sarah-dorweiler-123483-unsplash.jpg");
+    background-size: 100%auto;
     background-attachment: fixed;
+    padding: 3%;
 }
 
 .indexContact {
-    background-image: url("../images/silvia-agrasar-227575-unsplash.jpg");
+    background-image: url("../images/liana-mikah-343240-unsplash.jpg");
+    background-size: 100%auto;
     background-attachment: fixed;
+    padding: 3%;
 }
 
 .indexTestimonials {
@@ -50,7 +70,7 @@ p {
 }
 
 .indexImage {
-    height: 80vh;
+    height: 70vh;
 }
 
 section.testimonial {
@@ -135,13 +155,6 @@ section.testimonial {
     }
     
     
-    
-    
-    
-    
-    
-    
-    
     @media screen and (min-width: 750px){
       
     section.testimonial #quote-wrapper {
@@ -155,7 +168,6 @@ section.testimonial {
     }
       
     }
-    
     
     
     @media screen and (max-width: 750px){
@@ -181,21 +193,24 @@ section.testimonial {
       
     }
 
-    .cities {
+    .day {
         /* background-color: black; */
         color: black;
         margin: 20px;
         padding: 20px;
       } 
 
-
-
 .card {
-    margin: 1%;
     border: none;
+}
+
+.card-img-top {
+    margin: 1%;
+    
+    /* border: none; */
 }
 
 
 footer {
-    background-color: lightgreen;
+    background-color: lightgray;
 }

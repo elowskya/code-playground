@@ -21,25 +21,52 @@
   </head>
   
   <body>
-    <nav aria-label="breadcrumb">
-      <ol class="breadcrumb">
+    <header>
+      <h1>Katy Weprin </h1>
+    </header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Services <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Schedule</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+
+
+    <!-- <nav aria-label="breadcrumb">
+      <ul class="mr-auto breadcrumb">
+        <li>Katy Weprin</li>
         <li class="breadcrumb-item active" aria-current="page"><a href="#/">Home</a></li>
         <li class="breadcrumb-item"><a href="#services">Services</a></li>
         <li class="breadcrumb-item"><a href="#schedule">Schedule</a></li>
         <li class="breadcrumb-item"><a href="#contact">Contact</a></li>
-      </ol>
-    </nav>
-    <div class="indexText">
-      <h1>Katy Weprin</h1>
-      <h5>Pilates & Barre Instructor</h5>
-    </div>
+      </ul>
+    </nav> -->
     
     <div class="indexImage1">
+     
       <img class="indexImage" src="./public/images/openWindowBackBend.jpg" alt="Pilates with Katy"/>
+        <div class="indexText">
+          <h5>Pilates & Barre Instructor</h5>
+        </div>
+    
       <!-- Welcome to site -->
       <div class="indexAbout">
-        
-        <h2>About</h2>
+        <div class="container">
+        <h2 style="padding-top:1%">About</h2>
         <p>Katy is a Los Angeles native, who's source of Pilates and fitness inspiration draws
           from dancing and a balanced lifestyle. As a fully certified Balanced Body Pilates
           and Barre instructor, Katy enjoys constantly learning about her craft to help her students
@@ -53,45 +80,47 @@
         </p>
       </div>
     </div>
+
+   
     
     <div class="indexServices" id="services">
+      <div class="container">
       <h2>Services Offered</h2>
           <!-- grid for cards -->
-          <!-- <div class="container"> -->
-            <div class="row">
-              <div class="emptyDiv col-md-2"></div>     
-              <div class="card col-md-2">
-                <img class="card-img-top" src="./public/images/groupClass1.jpg" alt="group class">
+        
+            <div class="row">  
+              <div class="card col-md-3">
+                <img class="card-img-top" src="./public/images/pilatesRoom.jpg" alt="group class">
                 <div class="card-img-overlay">
                   <h4 class="card-title">Group Classes</h4>
                 </div>
           </div>
           
-          <div class="card col-md-2">
+          <div class="card col-md-3">
             <img class="card-img-top" src="./public/images/cobraPose.jpg" alt="group class">
             <div class="card-img-overlay">
                 <h4 class="card-title">Private</h4>
               </div>
             </div>
             
-            <div class="card col-md-2">
-              <img class="card-img-top" src="./public/images/sideBendPose.jpg" alt="Semi-Privates">
+            <div class="card col-md-3">
+              <img class="card-img-top" src="./public/images/anotherPose.jpg" alt="Semi-Privates">
               <div class="card-img-overlay">
                 <h4 class="card-title">Semi-Privates</h4>
               </div>
               </div>
               
-              <div class="card col-md-2">
-                <img class="card-img-top" src="./public/images/groupClass2.jpg" alt="corporate classes">
+              <div class="card col-md-3">
+                <img class="card-img-top" src="./public/images/active-aerobics-balance-868483.jpg" alt="corporate classes">
                 <div class="card-img-overlay">
                   <h4 class="card-title">Corporate Classes</h4>
                 </div>
               </div>
-              <div class="emptyDiv col-md-2"></div>
             </div>
-          <!-- </div> -->
+          </div>
           
         </div>
+      </div>
         <!-- blue/green/white--bohemian/modern --yellow---yogaFever-->
         
         
@@ -115,73 +144,90 @@
             </div>
             
           
-        </div>
-        <!--cta  -->
-        <!-- slider with images -->
-        <!-- book now -->
-      
-        
-        <div class="indexContact" id="contact">
-          <h2>
-            Let's Connect!
-          </h2>
-          <!--Instagram-->
+            <!--cta  -->
+            <!-- slider with images -->
+            <!-- book now -->
+          </div>
+            
+            
+            <div class="indexContact" id="contact">
+              <div class="container">
+              <h2>
+                Let's Connect!
+              </h2>
+
+              <!--Instagram-->
+            
           <a class="ins-ic" href="https://www.instagram.com/miss.katy.pilates/">
             <i
             class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x">
           </i>
         </a>
-        
+     
       </div>
-      
-      <section class="testimonial">
-
-        <div class="inner">
-          <div class="cederholm" id="quote-wrapper">
-            <div class="quote">
-              <blockquote id="quote-quote"> Katy took on a real challenge -- a body that had been more or less intert for decades -- and carefully, strategically, and effectively created a course for improvement with real, undeniable results.
-                </blockquote><cite id="quote-attrib">--Brian, Los Angeles, CA</cite>
-            </div>
-            <!-- <div class="portrait"></div> -->
-            <div class="quote">
-                <blockquote id="quote-quote"> I met Katy when I decided to get therapy for my chronic back problem. I approached Pilates with much trepidation, but she quickly dispelled my nervousness with her professional manner. She is very thoughtful in her approach to students and has helped me tremendously. 
-    
-                  </blockquote><cite id="quote-attrib">--John, Beverly Hills, CA</cite>
-              </div>
+      <div class="container">
+      <h2>Testimonials</h2>
+    </div>
+        <section class="testimonial container">
+          <div class="inner">
+            <div class="cederholm" id="quote-wrapper">
               <div class="quote">
-                  <blockquote id="quote-quote">  
-                    Katy is one of the sweetest instructors that I have ever met. Right away she made me feel comfortable and helped me get right 
-                    back into the groove after being out on maternity leave.
-                    </blockquote><cite id="quote-attrib">--Cara, Beverly Hills, CA</cite>
-                </div>
+                <blockquote id="quote-quote"> Katy took on a real challenge -- a body that had been more or less inert for decades -- and carefully, strategically, and effectively created a course for improvement with real, undeniable results.
+                </blockquote><cite id="quote-attrib">--Brian, Los Angeles, CA</cite>
+              </div>
+              </section>
+            <!-- <div class="portrait"></div> -->
 
-                <div class="quote">
-                    <blockquote id="quote-quote">  
-                      Katy will kick your butt! I have been looking everywhere for an instructor that I vibe with - and she's totally got it!
-                      </blockquote><cite id="quote-attrib">--Amanda, Beverly Hills, CA</cite>
-                  </div>
-
+            <section class="testimonial container"
+            <div class="inner">
+                <div class="cederholm" id="quote-wrapper">
                   <div class="quote">
-                      <blockquote id="quote-quote">  
-                        I was in town on a business trip and decided to break away for a class. I heard about Katy's class from a co-worker and decided to try it.
-                        Definitely broke a sweat and my core muscles are going to be thanking me tomorrow! I will definitely be back on my next trip.
-                        </blockquote><cite id="quote-attrib">--Mason, Grand Rapids, MI</cite>
-                    </div>
+                    <blockquote id="quote-quote"> -- I met Katy when I decided to get therapy for my chronic back problem. I approached Pilates with much trepidation, but she quickly dispelled my nervousness with her professional manner. She is very thoughtful in her approach to students and has helped me tremendously. 
+                
+                    </blockquote><cite id="quote-attrib">--John, Beverly Hills, CA</cite>
+                  </div>
+                  </section>
 
-            </div>
-          </div>
-        </section>
+                  <section class="testimonial container"
+                  <div class="inner">
+                      <div class="cederholm" id="quote-wrapper">
+                        <div class="quote">
+                          <blockquote id="quote-quote">  Katy is one of the sweetest instructors that I have ever met. Right away she made me feel comfortable and helped me get right 
+                              back into the groove after being out on maternity leave.
+                          </blockquote><cite id="quote-attrib">--Cara, Beverly Hills, CA</cite>
+                        </div>
+                        </section>
 
-      <!-- footer -->
+                        <section class="testimonial container"
+                        <div class="inner">
+                            <div class="cederholm" id="quote-wrapper">
+                              <div class="quote">
+                                <blockquote id="quote-quote">  Katy will kick your butt! I have been looking everywhere for an instructor that I vibe with - and she's totally got it!
+                                </blockquote><cite id="quote-attrib">--Amanda, Los Angeles, CA</cite>
+                              </div>
+                              </section>
 
-<footer>
+                              <section class="testimonial container"
+                              <div class="inner">
+                                  <div class="cederholm" id="quote-wrapper">
+                                    <div class="quote">
+                                      <blockquote id="quote-quote">I was in town on a business trip and decided to break away for a class. I heard about Katy's class from a co-worker and decided to try it.
+                                          Definitely broke a sweat and my core muscles are going to be thanking me tomorrow! I will definitely be back on my next trip.                  
+                                       </blockquote><cite id="quote-attrib">--Mason, Grand Rapids, MI</cite>
+                                    </div>
+                                    </section>
+
+      </div>
+        <!-- footer -->
+
+        <footer>
         <div>
              
-                
-                <i>Built & Maintained by</i><a href="https://www.linkedin.com/in/ashleyelowsky/"><i>A.Elowsky</i>
+          
+          <i>Built & Maintained by</i><a href="https://www.linkedin.com/in/ashleyelowsky/"><i>A.Elowsky</i>
               
                 
-              </div>
+          </div>
       
       </footer>
       
