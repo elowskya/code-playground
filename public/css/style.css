@@ -1,21 +1,199 @@
 
 
 body {
-    font-family: 'Playball', cursive;;
+    font-family: 'Quicksand', sans-serif;
     text-align: center;
     background-color: #FCFFF7;
+}
+
+h1 {
+    font-size: 10vh;
+    font-family: 'Playball', cursive;
+}
+
+h2 {
+    /* font-family: 'Playball', cursive; */
+
+    font-family: 'Quicksand', sans-serif;
+    margin: 3%; 
+
+}
+
+p {
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.indexImage1 {
+    background-image: url("../images/adam-birkett-295373-unsplash.jpg");
+    background-attachment: fixed;
+}
+
+/* .indexServices {
+    background-image: url("../images/liana-mikah-343240-unsplash.jpg");
+    background-attachment: fixed;
+} */
+
+.indexSchedule {
+    background-image: url("../images/sarah-dorweiler-123483-unsplash.jpg");
+    background-attachment: fixed;
+}
+
+.indexContact {
+    background-image: url("../images/silvia-agrasar-227575-unsplash.jpg");
+    background-attachment: fixed;
+}
+
+.indexTestimonials {
+    background-image: url("../images/ugur-akdemir-283278-unsplash.jpg");
+    background-attachment: fixed;
 }
 
 .indexImage {
     height: 80vh;
 }
 
-/* Make the image fully responsive */
-.carousel-inner img {
-    width: 20%;
-    height: 20%;
-  }
+section.testimonial {
+    background: #F6F4EF;
+    }
+    
+    section .inner {
+    max-width: 940px;
+    margin: 0 auto;
+    text-align: center;
+    }
+    section.testimonial .inner {
+    padding-top: 50px;
+    text-align: left;
+    }
+    
+    
+    section.testimonial #quote-wrapper {
+    position: relative;
+    min-height: 358px;
+    padding-top: 40px;
+    }
+    
+    section.testimonial blockquote {
+        font-family: "Proxima Nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #666;
+    font-size: 28px;
+    line-height: 1.3em;
+    padding-top: 1em;
+    position: relative;
+    z-index: 1;
+    margin-bottom: 0.75em;
+    }
+    q, blockquote {
+    quotes: none;
+    }
+    section.testimonial cite {
+    font-size: 18px;
+    color: #595756;
+    font-weight: bold;
+    margin: 2em 0;
+      margin-left: 38px;
+    
+    }
+    #quote-quote a {
+    color: #020202;
+    text-decoration: none;
+    }
+    #quote-quote a:hover {
+    color: #020202;
+    text-decoration: underline;
+    }
+    
+    section.testimonial #quote-wrapper.lisagor .portrait {
+    background-repeat: no-repeat;
+    background-image: url("http://www.getballpark.com/images/home/testimonials/lisagor.jpg");
+    background-size: 313px 329px;
+    background-position: center center;
+    width: 313px;
+    height: 329px;
+    }
+    
+    section.testimonial #quote-wrapper.cederholm .portrait {
+    background-repeat: no-repeat;
+    background-image: url("http://www.getballpark.com/images/home/testimonials/cederholm.jpg");
+    background-size: 275px 305px;
+    background-position: center center;
+    width: 275px;
+    height: 305px;
+    }
+    
+    
+    section.testimonial blockquote::before {
+    content: "“";
+    color: #E0DDD7;
+    font-family: georgia, serif;
+    font-size: 6em;
+    position: absolute;
+    left: -0.25em;
+    top: 0.35em;
+    z-index: -10;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    @media screen and (min-width: 750px){
+      
+    section.testimonial #quote-wrapper {
+    padding-left: 360px;
+    }  
+      
+    section.testimonial #quote-wrapper .portrait {
+    position: absolute;
+    left: 10px;
+    bottom: 0;
+    }
+      
+    }
+    
+    
+    
+    @media screen and (max-width: 750px){
+        
+    
+    section.testimonial .inner {
+    padding-left: 0;
+    }
+    
+    section.testimonial .quote {
+    max-width: 75%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    }
+    
+    section.testimonial .portrait {
+    display: block;
+    margin: 0 auto;
+    max-width: 80%;
+    background-size: 100% auto !important;
+    background-position: center bottom !important;
+    }
+      
+    }
 
+    .cities {
+        /* background-color: black; */
+        color: black;
+        margin: 20px;
+        padding: 20px;
+      } 
+
+
+
+.card {
+    margin: 1%;
+    border: none;
+}
 
 
 footer {
