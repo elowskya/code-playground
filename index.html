@@ -21,10 +21,10 @@
   </head>
   
   <body>
-    <header>
+    <!-- <header>
       <h1>Katy Weprin </h1>
-    </header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    </header> -->
+    <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="#"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -42,21 +42,28 @@
             </li>
           </ul>
         </div>
-      </nav>
+      </nav> -->
+      <!-- <navbar aria-label="breadcrumb">
+        <ol class="breadcrumb align-items-center">
+          <li class="breadcrumb-item"><a href="#">Home</a></li>
+          <li class="breadcrumb-item"><a href="#">Library</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Data</li>
+        </ol>
+      </navbar> -->
+<script src="main.js"></script>
 
-
-
-    <!-- <nav aria-label="breadcrumb">
-      <ul class="mr-auto breadcrumb">
+    <navbar aria-label="breadcrumb">
+      <ol class="breadcrumb align-items-center">
         <li>Katy Weprin</li>
-        <li class="breadcrumb-item active" aria-current="page"><a href="#/">Home</a></li>
+        <li class="breadcrumb-item active" aria-current="page"><a href="#home">Home</a></li>
         <li class="breadcrumb-item"><a href="#services">Services</a></li>
         <li class="breadcrumb-item"><a href="#schedule">Schedule</a></li>
         <li class="breadcrumb-item"><a href="#contact">Contact</a></li>
-      </ul>
-    </nav> -->
+      </ol>
+    </navbar>
+
     
-    <div class="indexImage1">
+    <div class="indexImage1" id="home">
      
       <img class="indexImage" src="./public/images/openWindowBackBend.jpg" alt="Pilates with Katy"/>
         <div style="padding-top:1%"class="indexText">
@@ -83,7 +90,7 @@
 
    
     
-    <div class="indexServices">
+    <div class="indexServices" id="services">
       <div class="container">
       <h2>Services Offered</h2>
           <!-- grid for cards -->
@@ -111,7 +118,7 @@
               </div>
               
               <div class="card col-md-3">
-                <img class="card-img-top" src="./public/images/active-aerobics-balance-868483.jpg" alt="corporate classes">
+                <img class="card-img-top" src="./public/images/groupClass2.jpg" alt="corporate classes">
                 <div class="card-img-overlay">
                   <h4 class="card-title">Corporate Classes</h4>
                 </div>
@@ -126,8 +133,6 @@
         
         <div class="indexSchedule" id="schedule">
           <h2>Current Schedule</h2>
-          <script src="./main.js"></script>
-          <button onclick="myFunction()">View Schedule</button>
           <div class="day">
               <h3>Monday</h3>
               <p>Available by appointment.</p>
@@ -191,9 +196,8 @@
                   <div class="inner">
                       <div class="cederholm" id="quote-wrapper">
                         <div class="quote">
-                          <blockquote id="quote-quote">  Katy is one of the sweetest instructors that I have ever met. Right away she made me feel comfortable and helped me get right 
-                              back into the groove after being out on maternity leave.
-                          </blockquote><cite id="quote-attrib">--Cara, Beverly Hills, CA</cite>
+                          <blockquote id="quote-quote">  Katy is an incredible instructor.  She’s patient, extremely attentive to each client and is always extremely encouraging and positive, even at 6am.  She guides you through every exercise, helping you to engage all muscles while also focusing on breath, and reminding you that even when it seems too hard that “yes, you can”. Katy’s classes are never boring and always challenging making me feel better both mentally and physically.
+                          </blockquote><cite id="quote-attrib">--Heather, Los Angeles, CA</cite>
                         </div>
                         </section>
 

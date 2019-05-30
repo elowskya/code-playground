@@ -1,23 +1,5 @@
-// function giveMeEms(pixels) {
-//     var baseValue = 16;
+//TO DP fix breadcrumb presentation $breadcrumb-divider: none;
 
-//     function doMath(){
-//         return pixels/baseValue;
-//     }
-
-//     return doMath;
-// }
-
-// var smallSize = giveMeEms(12);
-// var medSize = giveMeEms(18);
-// var largeSize = giveMeEms(24);
-// var xLargeSize = giveMeEms(32);
-
-
-// console.log("small:", smallSize());
-// console.log("medium:", medSize());
-// console.log("large:", largeSize());
-// console.log("xlarge:", xLargeSize());
 
 // var testimonials = [{
 //     "name": "cederholm",
@@ -35,10 +17,3 @@
 //     document.getElementById("quote-attrib").innerHTML = testimonial.attribution
 //     document.getElementById("quote-wrapper").className = testimonial.name
 
-
-function myFunction() {
-    var x = document.getElementsByClassName("day");
-    for (var i = 0; i < x.length; i++) {
-      x[i].style.display = "none";
-    }
-  }

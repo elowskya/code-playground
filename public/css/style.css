@@ -4,10 +4,12 @@ header {
     color: black;
 }
 
-nav {
+navbar {
     position: fixed;
-    widows: 100%;
+    /* widows: 100%; */
     background-color: #94B026;
+    /* position: center; */
+    /* margin-bottom: 2%; */
 }
 
 body {
