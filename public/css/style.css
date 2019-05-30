@@ -1,36 +1,41 @@
 header {
     padding: 1%;
-    background-color: whitesmoke;
+    background-color:  #F6F4EF;
+    color: black;
 }
 
 nav {
     position: fixed;
     widows: 100%;
-    background-color: lightslategray;
+    background-color: #94B026;
 }
 
 body {
     font-family: 'Quicksand', sans-serif;
     text-align: center;
-    background-color: #FCFFF7;
+    background-color:  #F6F4EF;
 }
 
 .container {
-    background-color: whitesmoke;
+    background-color:  #F6F4EF;
     margin: 2%;
     padding: 2%;
 }
 
+.fab {
+    padding: 3%;
+    size: 5%;
+}
 
 h1 {
     font-size: 10vh;
-    font-family: 'Playball', cursive;
+    font-family: 'Ranga', cursive;
 }
 
 h2 {
     /* font-family: 'Playball', cursive; */
 
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Ranga', sans-serif;
     /* margin: 3%;  */
 
 }
@@ -73,6 +78,13 @@ p {
     height: 70vh;
 }
 
+.card-title {
+    color: black;
+    font-weight: 900;
+    align-content: center;
+    padding-top: 33%;
+}
+
 section.testimonial {
     background: #F6F4EF;
     }
@@ -90,8 +102,8 @@ section.testimonial {
     
     section.testimonial #quote-wrapper {
     position: relative;
-    min-height: 358px;
-    padding-top: 40px;
+    min-height: 150px;
+    padding-top: 20px;
     }
     
     section.testimonial blockquote {
@@ -138,8 +150,8 @@ section.testimonial {
     background-image: url("http://www.getballpark.com/images/home/testimonials/cederholm.jpg");
     background-size: 275px 305px;
     background-position: center center;
-    width: 275px;
-    height: 305px;
+    width: 175px;
+    height: 205px;
     }
     
     
@@ -178,7 +190,7 @@ section.testimonial {
     }
     
     section.testimonial .quote {
-    max-width: 75%;
+    max-width: 50%;
     margin: 0 auto;
     margin-bottom: 20px;
     }
