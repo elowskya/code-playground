@@ -1,0 +1,24 @@
+{
+  "name": "mind-body-lates",
+  "version": "1.0.0",
+  "description": "sandbox site",
+  "main": "main.js",
+  "scripts": {
+    "test": "test",
+    "start": "index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elowskya/code-playground.git"
+  },
+  "keywords": [
+    "sandbox",
+    "mind-body-lates"
+  ],
+  "author": "ashley e",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elowskya/code-playground/issues"
+  },
+  "homepage": "https://github.com/elowskya/code-playground#readme"
+}
