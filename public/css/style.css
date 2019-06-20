@@ -1,21 +1,15 @@
-header {
-    padding: 1%;
-    background-color:  #F6F4EF;
-    color: black;
+
+
+navbar {
+    position: sticky-top;
+  
 }
 
-/* .breadcrumb {
-     background-color: #94B026;
-     position: fixed;
-     
-} */
-
-nav {
-    position: fixed;
-    /* widows: 100%; */
-    background-color: #94B026;
-    position: center;
-    /* margin-bottom: 2%; */
+.breadcrumb-item {
+    font-size: 5vh;
+    display: inline-block;
+    /* position: absolute; */
+    color: black;
 }
 
 body {
@@ -26,8 +20,9 @@ body {
 
 .container {
     background-color:  #F6F4EF;
-    margin: 2%;
+    /* margin: 2%; */
     padding: 2%;
+    width: 100vw;
 }
 
 .fab {
@@ -49,18 +44,9 @@ h2 {
 }
 
 p {
-    margin-right: 5%;
-    margin-left: 5%;
+    /* margin-right: 5%;
+    margin-left: 5%; */
     font-size: 3vh;
-}
-
-.indexImage1 {
-    background-image: url("../images/adam-birkett-295373-unsplash.jpg");
-    background-size: 100%auto;
-    /* opacity: .7; */
-    /* overflow: hidden; */
-    background-attachment: fixed;
-    padding: 3%;
 }
 
 .indexSchedule {
@@ -82,8 +68,19 @@ p {
     background-attachment: fixed;
 }
 
-.indexImage {
-    height: 90vh;
+.indexImage1 {
+    height: 100vh;
+    width: 100vw;
+    background-image: url("../images/aerobic-class-fitness-866021.jpg");
+    text-align: center;
+    position: absolute;
+}
+
+.indexText {
+    color: black;
+    font-size: 30%;
+    position: relative;
+    text-align: center;
 }
 
 .card-title {
