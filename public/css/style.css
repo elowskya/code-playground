@@ -14,6 +14,7 @@ navbar {
 
 .rounded-circle {
     padding: 1%;
+
     
 }
 
@@ -24,15 +25,23 @@ body {
 }
 
 .container {
-    background-color:  #F6F4EF;
-    /* margin: 2%; */
-    padding: 2%;
-    width: 100vw;
+    /* background-color:  lightskyblue; */
+    /* margin: 2% 0 2% 0; */
+    padding: 4%;
+    width: 100%;
 }
 
 .fab {
     padding: 3%;
     size: 5%;
+}
+
+.socialMedia {
+    /* block-size: 30vw; */
+    border-radius: 80%;
+    background-color: lightgray;
+    padding: 3%;
+
 }
 
 h1 {
@@ -61,12 +70,12 @@ p {
     padding: 3%;
 }
 
-.indexContact {
+/* .indexContact {
     background-image: url("../images/liana-mikah-343240-unsplash.jpg");
     background-size: 100%auto;
     background-attachment: fixed;
     padding: 3%;
-}
+} */
 
 .indexTestimonials {
     background-image: url("../images/ugur-akdemir-283278-unsplash.jpg");
@@ -235,4 +244,5 @@ section.testimonial {
 
 footer {
     background-color: lightgray;
+    padding: 4%;
 }
