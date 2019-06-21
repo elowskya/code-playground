@@ -12,6 +12,11 @@ navbar {
     color: black;
 }
 
+.rounded-circle {
+    padding: 1%;
+    
+}
+
 body {
     font-family: 'Quicksand', sans-serif;
     text-align: center;
