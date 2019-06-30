@@ -358,4 +358,23 @@ footer {
 
   h2 {
       padding: 2%;
+      /* color: white; */
+  }
+
+  /* .schedule {
+      background-color: lightgray;
+  } */
+
+  .scheduleRow {
+      margin-bottom: .5%;
+      background-color: lightgray;
+  }
+
+  /* .scheduleCol {
+      margin: .5%;
+  } */
+
+  .section {
+      background-color: #020202;
+      color: white;
   }
