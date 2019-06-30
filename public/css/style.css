@@ -1,8 +1,5 @@
-
-
 navbar {
-    position: sticky-top;
-  
+    position: sticky-top;  
 }
 
 .breadcrumb-item {
@@ -12,12 +9,6 @@ navbar {
     color: black;
 }
 
-/* .rounded-circle {
-    padding: 1%;
-
-    
-} */
-
 body {
     /* font-family: 'Quicksand', sans-serif; */
     /* font-family: 'Marck Script', cursive; */
@@ -25,11 +16,6 @@ body {
     text-align: center;
     background-color:  #F6F4EF;
 }
-
-/* .indexServices {
-
-    margin-top: 1%;
-} */
 
 .container {
     /* background-color:  lightskyblue; */
@@ -63,34 +49,6 @@ p {
     /* margin-right: 5%;
     margin-left: 5%; */
     font-size: 3vh;
-}
-
-.indexSchedule {
-    background-image: url("../images/sarah-dorweiler-123483-unsplash.jpg");
-    background-size: 100%auto;
-    background-attachment: fixed;
-    padding: 3%;
-    
-}
-
-/* .indexContact {
-    background-image: url("../images/liana-mikah-343240-unsplash.jpg");
-    background-size: 100%auto;
-    background-attachment: fixed;
-    padding: 3%;
-} */
-
-.indexTestimonials {
-    background-image: url("../images/ugur-akdemir-283278-unsplash.jpg");
-    background-attachment: fixed;
-}
-
-.indexImage1 {
-    height: 100vh;
-    width: 100vw;
-    background-image: url("../images/aerobic-class-fitness-866021.jpg");
-    text-align: center;
-    position: relative;
 }
 
 .indexText {
@@ -258,7 +216,7 @@ footer {
 }
 
 .jumbotron {
-    background-image: url("../images/aerobic-class-fitness-866021.jpg");
+    background-image: url("../images/aerobic-class-fitness-866021.png");
     background-size: cover;
     background-attachment: fixed;
     height: 100vh;
@@ -266,13 +224,13 @@ footer {
 
 }
 
-#openingSection {
+/* #openingSection {
     background-image: url("../images/aerobic-class-fitness-866021.jpg");
     background-size: cover;
     background-attachment: fixed;
     height: 100vh;
     color: white;
-}
+} */
 
 /* quick reset and base styles */
 * {
@@ -281,9 +239,9 @@ footer {
     border: 0;
   }
   
-  html {
+  /* html {
     font-family: helvetica, arial, sans-serif;
-  }
+  } */
   
   /* relevant styles */
   .img__wrap {
@@ -341,7 +299,7 @@ footer {
   }
 
   #socialMediaBackground {
-    background-image: url("../images/socialMediaPhone.jpg");
+    background-image: url("../images/socialMediaPhone.png");
     background-size: cover;
     background-attachment: fixed; 
     background-repeat: no-repeat;  
