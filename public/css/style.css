@@ -254,9 +254,15 @@ section.testimonial {
 }
 
 
+#footer {
+    background-color: black;
+    padding: 3%;
+    color: white;
+
+}
+
 footer {
     background-color: lightgray;
-    padding: 4%;
 }
 
 .jumbotron {
@@ -290,8 +296,8 @@ footer {
   /* relevant styles */
   .img__wrap {
     position: relative;
-    height: 200px;
-    width: 257px;
+    height: cover;
+    width: cover;
   }
   
   .img__description_layer {
@@ -348,4 +354,8 @@ footer {
     background-attachment: fixed;   
     height: 50vh;
     
+  }
+
+  h2 {
+      padding: 2%;
   }
