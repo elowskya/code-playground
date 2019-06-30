@@ -6,6 +6,7 @@
     <title>Katylates</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link href="https://fonts.googleapis.com/css?family=Playball|Quicksand&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Alex+Brush|Caveat|Dancing+Script|El+Messiri|La+Belle+Aurore|Marck+Script&display=swap" rel="stylesheet">
     <link rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"/>
@@ -63,17 +64,22 @@
 
         </div>
          
-        <div>
+        <!-- <div>
         <h2>About</h2>
-      </div>
+      </div> -->
 
-    <div class="container">
+    <!-- <div class="container"> -->
       <div class="row">
+        <div class="col-12">
+          <h2>About</h2>
+          <div class="horizontalLine"></div>
+        </div>
+      </div>
         <!-- <div class="col-sm">
           <img src="./public/images/boatPose.jpg" alt="Katy Weprin">
         </div> -->
-        <div class="col-sm">
-
+        <div class="row">
+        <div class="col-sm" id="aboutText">
           <p>Katy is a Los Angeles native, who's source of Pilates and fitness inspiration draws
             from dancing and a balanced lifestyle. As a fully certified Balanced Body Pilates
             and Barre instructor, Katy enjoys constantly learning about her craft to help her students
@@ -84,45 +90,22 @@
             she believes that improving one person's wellbeing can positively impact the entire 
             community. If you're looking to spark a convo after one of her classes, she loves her 
             sassy cat named Athena, camping, running, and loves a smaller city vibe!
-          </p>
-       
+          </p> 
         </div>
         <!-- <div class="col-sm">
           One of three columns
         </div> -->
       </div>
-    </div>
+    <!-- </div> -->
 
     <div id="services"> <h2 class="section">Services Offered</h2></div>
-
-<!--    
-              <div class="img__wrap">
-                  <img class="img__img" src="./public/images/cobraPose.jpg" />
-                  <div class="img__description_layer">
-                    <p class="img__description">This image looks super neat.</p>
-                  </div>
-                </div>
-       
-            <div class="img__wrap">
-                <img class="img__img" src="./public/images/anotherPose.jpg" />
-                <div class="img__description_layer">
-                  <p class="img__description">This image looks super neat.</p>
-                </div>
-              </div>  
-      
-              <div class="img__wrap">
-                  <img class="img__img" src="./public/images/pilatesRoom.jpg" />
-                  <div class="img__description_layer">
-                    <p class="img__description">This image looks super neat.</p>
-                  </div>
-                </div> -->
 
     <div class="card-deck">
         <div class="card bg-light text-white img__wrap">
             <img class="card-img" src="./public/images/pilatesRoom.jpg" alt="Pilates Room">
             <div class="card-img-overlay">
               <h5 class="card-title">Privates & Semi-Privates</h5>
-              <p class="card-text img__description_layer img__description">clients receive undivided attention	with a session customized entirely to their 
+              <p class="card-text img__description_layer img__description">Clients receive undivided attention	with a session customized entirely to their 
                 specific needs and goals.	Private sessions are the best way to attain the ultimate Pilates results.</p>
               <!-- <p class="card-text">Last updated 3 mins ago</p> -->
             </div>
@@ -147,14 +130,12 @@
                   <!-- <p class="card-text">Last updated 3 mins ago</p> -->
                 </div>
               </div>
-    </div>
-        
-    <div><h2>Current Schedule</h2></div>
+            </div>
 
     <div class="container schedule">
       <div class="row scheduleRow">
         <div class="col-12">
-          Public Schedule
+         <h2 id="schedule">Current Schedule</h2>
         </div>
       </div>
         <div class="row scheduleRow">
@@ -178,7 +159,7 @@
       </div>
     </div>
         
-        <div class="indexSchedule" id="schedule">
+        <!-- <div class="indexSchedule" id="schedule">
           <div class="day">
               <h3>Monday</h3>
               <p>Available by appointment.</p>
@@ -194,83 +175,47 @@
               <p>Downtown @ Pilates Studio 5-6am</p>
             </div>
    
-          </div>
+          </div> -->
             
-          <div id="contact"><h2>
-            Let's Connect!
-          </h2></div>
+          
+          <div id="socialMediaBackground">
+            <div class="row" id="contact">
+              <div class="col-12" id="contact"><h2>
+                Let's Connect!
+              </h2>
+            </div>
+            </div>
 
-          <div class="container" id="socialMediaBackground">
-              <div class="row">
+            <div class="row">
+                <div class="col-4">     
+                </div>
                 <div class="col-4">
                     <a  class="socialMedia" href="https://www.facebook.com/pilateswithkatyjean/" alt="Katy's Facebook">
-                      <i class="fab fa-facebook-square"></i></a>
-                    
+                      <i class="fab fa-facebook-square"></i></a>     
                 </div>
                 <div class="col-4">
                     <a class="socialMedia" href="https://www.instagram.com/miss.katy.pilates/" alt="Katy's Instagram">
                       <i class="fab fa-instagram">
                       </i></a>
                 </div>
-
-                <div class="col-4">
+<!-- 
+                <div class="col-3">
                     <a class="socialMedia" href="" alt="Katy's Email">
                       <i class="fas fa-envelope"></i></a>
-                </div>
-              </div>
+                </div> -->
+                <!-- <div class="col-3">
+                    <a class="socialMedia" href="" alt="Katy's Email">
+                      <i class="fas fa-phone-square"></i></a>
+                </div> -->
+                <!-- <div class="col-3">
+                <a class="socialMedia" href="" alt="Katy's Phone">
+                <i class="fas fa-phone-square-alt"></i></a>
+              </div> -->
 
-              </div>
+              </div>                           
 
-      <!-- <section class="testimonial container">
-          <h2>Testimonials</h2>
-          <div class="inner">
-            <div class="cederholm" id="quote-wrapper">
-              <div class="quote"> -->
-                <!-- <blockquote id="quote-quote"> Katy took on a real challenge -- a body that had been more or less inert for decades -- and carefully, strategically, and effectively created a course for improvement with real, undeniable results. -->
-                <!-- </blockquote><cite id="quote-attrib">--Brian, Los Angeles, CA</cite>
-              </div>
-              </section> -->
-            <!-- <div class="portrait"></div> -->
-
-            <!-- <section class="testimonial container"
-            <div class="inner">
-                <div class="cederholm" id="quote-wrapper">
-                  <div class="quote"> -->
-                    <!-- <blockquote id="quote-quote"> -- I met Katy when I decided to get therapy for my chronic back problem. I approached Pilates with much trepidation, but she quickly dispelled my nervousness with her professional manner. She is very thoughtful in her approach to students and has helped me tremendously. 
-                
-                    </blockquote><cite id="quote-attrib">--John, Beverly Hills, CA</cite> -->
-                  <!-- </div>
-                  </section> -->
-
-                  <!-- <section class="testimonial container"
-                  <div class="inner">
-                      <div class="cederholm" id="quote-wrapper">
-                        <div class="quote"> -->
-                          <!-- <blockquote id="quote-quote">  Katy is an incredible instructor.  She’s patient, extremely attentive to each client and is always extremely encouraging and positive, even at 6am.  She guides you through every exercise, helping you to engage all muscles while also focusing on breath, and reminding you that even when it seems too hard that “yes, you can”. Katy’s classes are never boring and always challenging making me feel better both mentally and physically.
-                          </blockquote><cite id="quote-attrib">--Heather, Los Angeles, CA</cite> -->
-                        <!-- </div>
-                        </section> -->
-
-                        <!-- <section class="testimonial container"
-                        <div class="inner">
-                            <div class="cederholm" id="quote-wrapper">
-                              <div class="quote">
-                                <blockquote id="quote-quote">  Katy will kick your butt! I have been looking everywhere for an instructor that I vibe with - and she's totally got it!
-                                </blockquote><cite id="quote-attrib">--Amanda, Los Angeles, CA</cite>
-                              </div>
-                              </section> -->
-
-                              <!-- <section class="testimonial container"
-                              <div class="inner">
-                                  <div class="cederholm" id="quote-wrapper">
-                                    <div class="quote">
-                                      <blockquote id="quote-quote">I was in town on a business trip and decided to break away for a class. I heard about Katy's class from a co-worker and decided to try it.
-                                          Definitely broke a sweat and my core muscles are going to be thanking me tomorrow! I will definitely be back on my next trip.                  
-                                       </blockquote><cite id="quote-attrib">--Mason, Grand Rapids, MI</cite>
-                                    </div>
-                                    </section> -->
-<!-- 
-      </div> -->
+      </div>
+    <!-- </div> -->
 <div> <h2 class="section">Testimonials</h2></div>
       <div class="card-columns">
           <div class="card">
