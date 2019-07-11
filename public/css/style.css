@@ -233,6 +233,16 @@ footer {
 
 }
 
+#schedule {
+    margin: 0;
+    padding: 0;
+    background-image: url("../images/silvia-agrasar-227575-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover, contain;
+    background-attachment: fixed;
+    height: 50vh;
+}
+
 /* quick reset and base styles */
 * {
     margin: 0;
@@ -297,11 +307,12 @@ footer {
 
   #socialMediaBackground {
     background-image: url("../images/socialMediaPhone.png");
-    background-size: cover, contain;
+    background-size: fill;
     background-attachment: fixed; 
     background-repeat: no-repeat;  
     height: 40vh;
-    
+    margin: 0;
+    padding: 0;
   }
 
   
