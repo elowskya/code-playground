@@ -321,10 +321,11 @@ footer {
     align-content: center;
   }
 
-  /* Extra small devices (phones, 600px and down) */
+/*  */
 @media only screen and (max-width: 600px) {
     .jumbotron {
-        background-size: fill;
+        background-size: cover;
+        background-repeat: no-repeat;
         height: 90vh;
     }
 } 
