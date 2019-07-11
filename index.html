@@ -44,6 +44,15 @@
           <li class="nav-item">
             <a class="nav-link" href="#contact">Contact</a>
           </li>
+          <li class="nav-item">
+              <a  class="nav-link" href="https://www.facebook.com/pilateswithkatyjean/">
+                <i class="fab fa-facebook-square"></i></a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="https://www.instagram.com/miss.katy.pilates/">
+                <i class="fab fa-instagram">
+                </i></a>
+          </li>
         </ul>
       </div>
     </nav>
@@ -69,24 +78,23 @@
          
       </header>
 
-    <div class="container" id="aboutText">
-      <div class="row">
-        <div class="col-12">
+    <div class="container-fluid" id="aboutText">
           <h2>About</h2>
-          <div class="horizontalLine"></div>
+          <!-- <div class="horizontalLine"></div> -->
+        <div class="container">
+        <div class="row aboutInfo">
+        <div class="col-md-5 katyProfilePic">
+          <!-- <img src="./public/images/openWindowBackBend.jpg"> -->
         </div>
-      </div>
-        <!-- <div class="col-sm">
-          <img src="./public/images/boatPose.jpg" alt="Katy Weprin">
-        </div> -->
-        <div class="row">
-        <div class="col-sm">
+            <div class="col-md-7">
           <p class="aboutParagraph">Katy is a Los Angeles native, who's source of Pilates and fitness inspiration draws
             from dancing and a balanced lifestyle. As a fully certified Balanced Body Pilates
             and Barre instructor, Katy enjoys constantly learning about her craft to help her students
             grow to their own full potential. Some of her specializations include pre- and post-
             natal programming and modified sequences for improving back ailments and spinal 
-            pathologies. Katy strives to be known as someone that helps people feel freedom
+            pathologies.</p> 
+            <p class="aboutParagraph">
+            Katy strives to be known as someone that helps people feel freedom
             in their bodies and teaches a fitness method that celebrates our differences. Most importantly,
             she believes that improving one person's wellbeing can positively impact the entire 
             community. If you're looking to spark a convo after one of her classes, she loves her 
@@ -94,14 +102,13 @@
           </p> 
         </div>
 
-        <!-- <div class="col-sm">
-          One of three columns
-        </div> -->
       </div>
-      <!-- <div class="horizontalLine"></div> -->
+    </div>
     </div>
 
-    <div id="services"> <h2 class="servicesH2">Services</h2>
+    <div class="container-fluid" id="services"> 
+      <!-- <div class="horizontalLine"></div> -->
+      <h2>Services</h2>
 
     <div class="card-deck">
         <div class="card bg-light text-white img__wrap">
@@ -136,7 +143,7 @@
             </div>
           </div>
 
-    <div class="container-fluid" id="schedule">
+    <!-- <div class="container-fluid" id="schedule">
       <div class="row scheduleRow">
         <div class="col-12">
          <h2>Schedule</h2>
@@ -160,17 +167,66 @@
         <!-- <div class="col">
           3 of 3
         </div> -->
-      </div>
-    </div>
-          <div class="container" id="socialMediaBackground">
-            <div class="row" id="contact">
-              <div class="col-12"><h2>
-                Let's Connect!
-              </h2>
-            </div>
-            </div>
-
-            <div class="row">
+      <!-- </div>
+    </div>  -->
+            <div class="container-fluid contactContainer" id="contact">
+              <div class="container formContainer">
+              <form class="needs-validation" novalidate>
+                    <h2 class="letsConnectH2">Let's Connect!</h2>   
+                <div class="form-row">
+                        <input type="text" class="form-control" id="validationCustom01" placeholder="Name" value="" required>
+                        <div class="valid-feedback">
+                          Looks good!
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="input-group">
+                          <input type="email" class="form-control" id="validationCustomUsername" placeholder="Email" aria-describedby="inputGroupPrepend" required>
+                          <div class="invalid-feedback">
+                            Please include your email.
+                          </div>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                      
+                        <textarea class="form-control" id="validationCustom03" cols="30" rows="8" placeholder="Type your message here..." required></textarea>
+                        <div class="invalid-feedback">
+                          Please give us some feedback.
+                        </div>
+                    
+                    
+                    </div>
+                   
+                    <button class="btn btn-primary" type="submit">Submit</button>
+                  </form>
+                  
+                  <script>
+                  (function() {
+                    'use strict';
+                    window.addEventListener('load', function() {
+                      // Fetch all the forms we want to apply custom Bootstrap validation styles to
+                      var forms = document.getElementsByClassName('needs-validation');
+                      // Loop over them and prevent submission
+                      var validation = Array.prototype.filter.call(forms, function(form) {
+                        form.addEventListener('submit', function(event) {
+                          if (form.checkValidity() === false) {
+                            event.preventDefault();
+                            event.stopPropagation();
+                          }
+                          form.classList.add('was-validated');
+                        }, false);
+                      });
+                    }, false);
+                  })();
+                  </script>
+                </div>
+            
+              
+              </div>
+            
+              <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+                crossorigin="anonymous"></script>
+            <!-- <div class="row">
                 <div class="col-4">     
                 </div>
                 <div class="col-4">
@@ -182,25 +238,11 @@
                       <i class="fab fa-instagram">
                       </i></a>
                 </div>
-<!-- 
-                <div class="col-3">
-                    <a class="socialMedia" href="" alt="Katy's Email">
-                      <i class="fas fa-envelope"></i></a>
-                </div> -->
-                <!-- <div class="col-3">
-                    <a class="socialMedia" href="" alt="Katy's Email">
-                      <i class="fas fa-phone-square"></i></a>
-                </div> -->
-                <!-- <div class="col-3">
-                <a class="socialMedia" href="" alt="Katy's Phone">
-                <i class="fas fa-phone-square-alt"></i></a>
-              </div> -->
+              </div>                            -->
 
-              </div>                           
-
-      </div>
+      <!-- </div> -->
     <!-- </div> -->
-<div> <h2 class="section">Testimonials</h2></div>
+<div> <h2>Testimonials</h2>
       <div class="card-columns">
           <div class="card">
             <!-- <img class="card-img-top" src="..." alt="Card image cap"> -->
@@ -269,6 +311,7 @@
             </blockquote>
           </div>
      
+        </div>
         </div>
 
         <footer id="footer">
