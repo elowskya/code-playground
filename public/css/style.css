@@ -233,24 +233,12 @@ footer {
 
 }
 
-/* #openingSection {
-    background-image: url("../images/aerobic-class-fitness-866021.jpg");
-    background-size: cover;
-    background-attachment: fixed;
-    height: 100vh;
-    color: white;
-} */
-
 /* quick reset and base styles */
 * {
     margin: 0;
     padding: 0;
     border: 0;
   }
-  
-  /* html {
-    font-family: helvetica, arial, sans-serif;
-  } */
   
   /* relevant styles */
   .img__wrap {
@@ -309,35 +297,14 @@ footer {
 
   #socialMediaBackground {
     background-image: url("../images/socialMediaPhone.png");
-    background-size: cover;
+    background-size: cover, contain;
     background-attachment: fixed; 
     background-repeat: no-repeat;  
     height: 40vh;
     
   }
 
-  /* h2 {
-      padding-top: 2%;
-      /* color: white; */
-
-  /* .schedule {
-      background-color: lightgray;
-  } */
-
-  /* .scheduleRow {
-      margin-bottom: .5%;
-      background-color: lightgray;
-  } */
-
-  /* .scheduleCol {
-      margin: .5%;
-  } */
-
-  /* .section {
-      background-color: #020202;
-      color: white;
-  } */
-
+  
   .aboutParagraph {
       /* padding-right: 10%;
       padding-left: 10%; */
@@ -352,5 +319,12 @@ footer {
     height: 2px;
     background-color: white;
     align-content: center;
-    /* margin: 0 4% 2% 4%; */
   }
+
+  /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .jumbotron {
+        background-size: fill;
+        height: 90vh;
+    }
+} 
