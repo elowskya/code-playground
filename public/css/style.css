@@ -324,6 +324,7 @@ footer {
 /*  */
 @media only screen and (max-width: 600px) {
     .jumbotron {
+        background-image: url("../images/aerobic-class-fitness-866021.png");
         background-size: cover;
         background-repeat: no-repeat;
         height: 90vh;
