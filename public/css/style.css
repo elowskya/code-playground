@@ -223,7 +223,8 @@ footer {
 
 .jumbotron {
     background-image: url("../images/aerobic-class-fitness-866021.png");
-    background-size: cover;
+    background-size: cover, contain;
+    background-repeat: no-repeat;
     background-attachment: fixed;
     height: 100vh;
     color: black;
