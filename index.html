@@ -4,7 +4,8 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>Katylates</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1" /> -->
+    <meta name=”viewport” content=”width=device-width, initial-scale=1″>
     <link href="https://fonts.googleapis.com/css?family=Alex+Brush|Caveat|Dancing+Script|El+Messiri|La+Belle+Aurore|Marck+Script&display=swap" rel="stylesheet">
     <link rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -21,39 +22,45 @@
   </head>
   
   <body>
-    <header>
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">Katy Weprin</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Services <span class="sr-only">(current)</span></a>
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">Katy Weprin</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="#aboutText">Katy's Profile <span class="sr-only">(current)</span></a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Schedule</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
+          <li class="nav-item">
+            <a class="nav-link" href="#services">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#schedule">Schedule</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
     
+    <header>
         <div class="jumbotron jumbotron-fluid">
             <div class="container">
               <h1 class="display-4"><h1> Katy Weprin </h1>
               <p class="lead">Pilates & Barre Instructor</p>
-              <hr class="my-4">
+              <!-- <hr class="my-4"> -->
               <!-- <p> -->
-              <ol>
+              <!-- <ol>
                 <li class="breadcrumb-item"><a href="#services">Services</a></li>
                 <li class="breadcrumb-item"><a href="#schedule">Schedule</a></li>
                 <li class="breadcrumb-item"><a href="#contact">Contact</a></li>
               </ol>
-            <!-- </p> -->
+            </p> -->
             <!-- <p>Pilates & Barre Instructor</p> -->
             <!-- <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a> -->
             </div>
@@ -62,7 +69,7 @@
          
       </header>
 
-    <div class="container">
+    <div class="container" id="aboutText">
       <div class="row">
         <div class="col-12">
           <h2>About</h2>
@@ -73,8 +80,8 @@
           <img src="./public/images/boatPose.jpg" alt="Katy Weprin">
         </div> -->
         <div class="row">
-        <div class="col-sm" id="aboutText">
-          <p>Katy is a Los Angeles native, who's source of Pilates and fitness inspiration draws
+        <div class="col-sm">
+          <p class="aboutParagraph">Katy is a Los Angeles native, who's source of Pilates and fitness inspiration draws
             from dancing and a balanced lifestyle. As a fully certified Balanced Body Pilates
             and Barre instructor, Katy enjoys constantly learning about her craft to help her students
             grow to their own full potential. Some of her specializations include pre- and post-
@@ -86,13 +93,15 @@
             sassy cat named Athena, camping, running, and loves a smaller city vibe!
           </p> 
         </div>
+
         <!-- <div class="col-sm">
           One of three columns
         </div> -->
       </div>
+      <!-- <div class="horizontalLine"></div> -->
     </div>
 
-    <div id="services"> <h2 class="section">Services Offered</h2></div>
+    <div id="services"> <h2 class="servicesH2">Services</h2>
 
     <div class="card-deck">
         <div class="card bg-light text-white img__wrap">
@@ -125,11 +134,12 @@
                 </div>
               </div>
             </div>
+          </div>
 
-    <div class="container schedule">
+    <div class="container" id="schedule">
       <div class="row scheduleRow">
         <div class="col-12">
-         <h2 id="schedule">Current Schedule</h2>
+         <h2>Schedule</h2>
         </div>
       </div>
         <div class="row scheduleRow">
@@ -153,8 +163,8 @@
       </div>
     </div>
           <div class="container" id="socialMediaBackground">
-            <div class="row">
-              <div class="col-12" id="contact"><h2>
+            <div class="row" id="contact">
+              <div class="col-12"><h2>
                 Let's Connect!
               </h2>
             </div>
