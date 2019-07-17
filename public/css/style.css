@@ -44,14 +44,9 @@ h2 {
     font-size: 7vh;
     font-weight: 700;
     padding-top: 5%;
-    /* margin: 3%;  */
+    /* background-color: white; */
 
 }
-
-/* .letsConnectH2 {
-    margin: 0;
-    padding: 0;
-} */
 
 .katyProfilePic img {
     /* background-size: cover;
@@ -67,8 +62,6 @@ h2 {
 }
 
 p {
-    /* margin-right: 5%;
-    margin-left: 5%; */
     font-size: 3vh;
 }
 
@@ -117,7 +110,7 @@ p {
     align-content: center;
 }
 
-.jumbotron {
+.jumbotron-fluid {
     background-image: url("../images/acro-yoga-active-balance-1881993.jpg");
     background-size: cover, contain;
     background-repeat: no-repeat;
@@ -129,8 +122,12 @@ p {
 
 }
 
+.jumbotronText {
+    margin-top: -3%;
+}
+
 #schedule {
-    margin: 0;
+    /* margin: 0; */
     padding: 0;
     background-image: url("../images/meditating.jpg");
     background-repeat: no-repeat;
@@ -222,6 +219,17 @@ p {
       background-size: cover;
   }
 
+  .subscribe {
+      background-image: url("../images/meditating.jpg");
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+  }
+
+  .testimonialText {
+      text-align: justify;
+      padding: 5%;
+  }
   form {
       margin-left: 30%;
       margin-right: 30%;
@@ -235,24 +243,29 @@ p {
       padding: 1%;
   }
 
-  .letsConnect {
-      background-image: url("../images/socialMediaPhone.png");
-
-  }
-
-  /* #aboutText {
-      background-color: lightgray;
-      background-attachment: fixed;
+  .aboutDiv {
+      background-image: url("../images/silvia-agrasar-227575-unsplash.jpg");
       background-repeat: no-repeat;
       background-size: cover;
+      opacity: 0.6;
+      /* position: relative;
+      float: right; */
+  }
+/*   
+  .aboutDiv:after {
+    content: '';
+    display: block;
+    position: absolute;
+    z-index: 2;
   } */
-  
   .aboutParagraph {
       padding-right: 2%;
       padding-left: 2%;
       text-align: justify;
       padding-top: 2%;
+      /* position: absolute; */
   }
+
 
   .horizontalLine {
     width: 60vw;
@@ -269,7 +282,7 @@ p {
         background-size: 100% 100% cover;
         background-position: center;
         background-repeat: no-repeat;
-        max-width: 100%;
+        /* max-width: 100%; */
         /* height: auto;
     }
 } 
