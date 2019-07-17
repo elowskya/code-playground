@@ -230,6 +230,19 @@ p {
       text-align: justify;
       padding: 5%;
   }
+
+  h4 {
+      color: black;
+      font-size: 3vh;
+  }
+
+  .divCheckbox {
+      color: black;
+  }
+  .contactCheckbox {
+      display: justify;
+      /* color: black; */
+  }
   form {
       margin-left: 30%;
       margin-right: 30%;
@@ -237,6 +250,9 @@ p {
       opacity: 0.9;
       padding: 5%;
       background-size: 50%;
+      color: black;
+      display: inline-block;
+      text-align: justify; 
   }
 
   .form-row {
