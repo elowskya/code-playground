@@ -36,15 +36,8 @@ p {
     font-size: 3vh;
 }
 
-.testimonials {
-    background-image: url("./images/silvia-agrasar-227575-unsplash.jpg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-}
-
 .testimonialImages {
-    padding: .5%;
+    /* padding: .5%; */
     height: 20vh;
     background-color: burlywood;
 }
@@ -86,7 +79,7 @@ p {
 }
 
 .jumbotron-fluid {
-    background-image: url("./images/acro-yoga-active-balance-1881993.jpg");
+    background-image: url("../images/warriorPose.jpg");
     background-size: cover, contain;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -219,6 +212,13 @@ p {
 
   .form-row {
       padding: 1%;
+  }
+
+  .about {
+      background-image: url("../images/succulent.jpg");
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
   }
 
   .aboutDiv {

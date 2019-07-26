@@ -4,19 +4,12 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>Pilates</title>
-    <!-- <meta name="viewport" content="width=device-width, initial-scale=1" /> -->
-    <meta name=”viewport” content=”width=device-width, initial-scale=1″>
-    <link href="https://fonts.googleapis.com/css?family=Alex+Brush|Caveat|Dancing+Script|El+Messiri|La+Belle+Aurore|Marck+Script&display=swap" rel="stylesheet">
+    <meta name=”viewport” content=”width=device-width, initial-scale=1″/>
     <link rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"/>    
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
-      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous"/>
-    <link rel="stylesheet" type="text/css" media="screen" href="./public/css/style.css"/>
-    
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="./css/style.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Alex+Brush|Caveat|Dancing+Script|El+Messiri|La+Belle+Aurore|Marck+Script&display=swap" rel="stylesheet">
   </head>
   
   <body>
@@ -66,12 +59,11 @@
          
       </header>
 
-    <div class="container-fluid" id="aboutText">
+    <div class="container-fluid about" id="aboutText">
           <h2>About</h2>
-        <!--<div class="container"-->
         <div class="row aboutInfo">
         <div class="col-sm-5 katyProfilePic">
-        <img src="./public/images/katySeated.jpg" alt="Katy"/>
+        <img src="./images/katySeated.jpg" alt="Katy"/>
         </div>
             <div class="col-sm-7 aboutDiv aboutParagraph">
           <p>Katy is a Los Angeles native, who's source of Pilates and fitness inspiration draws
@@ -95,12 +87,10 @@
 
     <div class="container-fluid" id="services"> 
       <h2>Services</h2>
-
     <div class="card-deck row">
         <div class="card bg-light text-white .col-sm-3 img__wrap">
             <img class="card-img" src="./images/pilatesRoom.jpg" alt="Pilates Room">
             <div class="card-img-overlay">
-              <!-- <h5 class="card-title">Privates & Semi-Privates</h5> -->
               <p class="card-text img__description_layer img__description">Privates & Semi-Privates<br> <br>Clients receive undivided attention	with a session customized entirely to their 
                 specific needs and goals.	Private sessions are the best way to attain the ultimate Pilates results.</p>
             </div>
@@ -116,7 +106,6 @@
             <div class="card bg-light text-white .col-sm-3 img__wrap">
                 <img class="card-img" src="./images/anotherPose.jpg" alt="Corporate Classes">
                 <div class="card-img-overlay">
-                  <!-- <h5 class="card-title">Corporate Classes</h5> -->
                   <p class="card-text img__description_layer img__description"> Corporate Classes<br> <br>Bring Pilates to your worksite, and give your employees the break they deserve! 
                     Held on location, this Pilates class instruction enables participants to return to work with a calm, 
                     focused energy, improved physical fitness, mental clarity and stress reduction.</p>
@@ -130,7 +119,7 @@
       <div class="row">
           <div class="col-sm-4 cardHolder">
               <div class="card cardInside">
-                <img class="testimonialImages" src="./images/bridgePose.jpg">
+                <img class="testimonialImages" src="./images/succulent.jpg">
                 <div class="testimonialText">
                   <h4>Brian, Los Angeles</h4>
                   <p>Katy took on a real challenge- a body that had been more or less inert for decades -- 
@@ -140,7 +129,7 @@
           </div>
           <div class="col-sm-4">
               <div class="card">
-                  <img class="testimonialImages" src="./public/images/silvia-agrasar-227575-unsplash.jpg">
+                  <img class="testimonialImages" src="./images/succulent.jpg" alt="plant"/>
                   <div class="testimonialText">
                 <h4>John, Beverly Hills, CA</h4>
                 <p>
@@ -152,7 +141,7 @@
           </div>
           <div class="col-sm-4">
               <div class="card">
-                  <img class="testimonialImages" src="./public/images/bridgePose.jpg">
+                  <img class="testimonialImages" src="./images/succulent.jpg" alt="plant"/>
                   <div class="testimonialText">
                   <h4>Heather, Los Angeles, CA</h4>
                   <p>
@@ -173,11 +162,9 @@
                   <form id="contactForm" action="https://formspree.io/elowskya@mail.gvsu.edu" method="POST">
                     <h4>Let's Connect!</h4>
                         <p>
-                          <!-- <label>name</label> -->
                           <input type="text" name="name" placeholder="name" value="">
                         </p>
                         <p>
-                          <!-- <label>email</label> -->
                           <input type="email" name="_replyto" placeholder="email">
                         </p>
                         <p>
@@ -224,15 +211,12 @@
 
         <footer id="footer">
         <div>
-             
-            <i class="fas fa-hammer"></i>
-            <i class="fas fa-wrench"></i>
-          <i>Built & Maintained by</i><a href="www.americanwebdev.com" target="_blankgi"><i> AmericanWebDev.com</i></a>
-              
-                
+          <i>Built & Maintained by</i><a href="www.americanwebdev.com" target="_blank"><i> AmericanWebDev.com</i></a>          
           </div>
-      
       </footer>
-      
+
+       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
   </body>
 </html>
