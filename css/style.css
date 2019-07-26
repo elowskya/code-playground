@@ -28,20 +28,24 @@ h2 {
 }
 
 .katyProfilePic img {
-    margin-top: 1%;
-    margin-bottom: 1%;
     height: 70vh;
-    width: 30vw;
+    margin-top: 5%;
 }
 
 p {
     font-size: 3vh;
 }
 
+.testimonials {
+    background-image: url("./images/silvia-agrasar-227575-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
 .testimonialImages {
-    border-radius: 50%;
-    padding: 2%;
-    height: 40vh;
+    padding: .5%;
+    height: 20vh;
     background-color: burlywood;
 }
 
@@ -82,7 +86,7 @@ p {
 }
 
 .jumbotron-fluid {
-    background-image: url("../images/acro-yoga-active-balance-1881993.jpg");
+    background-image: url("./images/acro-yoga-active-balance-1881993.jpg");
     background-size: cover, contain;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -100,7 +104,7 @@ p {
 #schedule {
     /* margin: 0; */
     padding: 0;
-    background-image: url("../images/meditating.jpg");
+    background-image: url("./images/meditating.jpg");
     background-repeat: no-repeat;
     background-size: cover, contain;
     background-attachment: fixed;
@@ -249,15 +253,3 @@ p {
     background-color: black;
     display: inline-block;
   }
-
-/*  */
-@media only screen and (max-width: 600px) {
-    .jumbotron {
-        /* background-image: url("../images/aerobic-class-fitness-866021.png"); */
-        background-size: 100% 100% cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        /* max-width: 100%; */
-        /* height: auto;
-    }
-} 
