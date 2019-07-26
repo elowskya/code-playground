@@ -78,16 +78,14 @@ p {
     align-content: center;
 }
 
-.jumbotron-fluid {
+.header {
     background-image: url("../images/warriorPose.jpg");
     background-size: cover, contain;
     background-repeat: no-repeat;
     background-attachment: fixed;
     height: 100vh;
     color: black;
-    margin-bottom: 0;
     padding-bottom: 0;
-
 }
 
 .jumbotronText {
@@ -227,24 +225,13 @@ p {
       background-repeat: no-repeat;
       background-size: cover;
       opacity: 0.9;
-      /* position: relative;
-      float: right; */
   }
-/*   
-  .aboutDiv:after {
-    content: '';
-    display: block;
-    position: absolute;
-    z-index: 2;
-  } */
   .aboutParagraph {
       padding-right: 2%;
       padding-left: 2%;
       text-align: justify;
       padding-top: 2%;
-      /* position: absolute; */
   }
-
 
   .horizontalLine {
     width: 60vw;
@@ -252,4 +239,10 @@ p {
     margin-top: 3%;
     background-color: black;
     display: inline-block;
+  }
+
+  @media only screen and (max-width: 600px) {
+    [class*="col-"] {
+        width: 100%;
+    }
   }
