@@ -244,6 +244,7 @@ p {
   @media (max-width: 800px) {
     .header {
        background-color: bisque;
+       background-image: url("../images/openWindowBackBend.jpg");
        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     }
 
