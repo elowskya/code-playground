@@ -8,15 +8,20 @@
     <link rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"/>    
+    <link rel="stylesheet" type="text/css" media="screen" href="./css/reset.css"/>
     <link rel="stylesheet" type="text/css" media="screen" href="./css/style.css"/>
     <link href="https://fonts.googleapis.com/css?family=Alex+Brush|Caveat|Dancing+Script|El+Messiri|La+Belle+Aurore|Marck+Script&display=swap" rel="stylesheet">
      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
     crossorigin="anonymous"/>
+      <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+      <!-- [if lt IE 9]>-->
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
   </head>
   
   <body>
     <header>
-       <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+       <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
       <a class="navbar-brand" href="#">Katy Weprin</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -64,14 +69,14 @@
         <div class="col-sm-5 katyProfilePic">
         <img src="./images/katySeated.jpg" alt="Katy"/>
         </div>
-            <div class="col-sm-7 aboutDiv aboutParagraph">
-          <p>Katy is a Los Angeles native, who's source of Pilates and fitness inspiration draws
+            <div class="col-sm-7 aboutDiv">
+          <p class="aboutParagraphTop">Katy is a Los Angeles native, who's source of Pilates and fitness inspiration draws
             from dancing and a balanced lifestyle. As a fully certified Balanced Body Pilates
             and Barre instructor, Katy enjoys constantly learning about her craft to help her students
             grow to their own full potential. Some of her specializations include pre- and post-
             natal programming and modified sequences for improving back ailments and spinal 
-            pathologies.</p> 
-            <p>
+            pathologies.</p>
+            <p class="aboutParagraph">
             Katy strives to be known as someone that helps people feel freedom
             in their bodies and teaches a fitness method that celebrates our differences. Most importantly,
             she believes that improving one person's wellbeing can positively impact the entire 
@@ -120,9 +125,10 @@
               <div class="card cardInside">
                 <img class="testimonialImages" src="./images/succulent.jpg">
                 <div class="testimonialText">
-                  <h4>Brian, Los Angeles</h4>
-                  <p>Katy took on a real challenge- a body that had been more or less inert for decades -- 
-                    and carefully, strategically, and effectively created a course for improvement with real, undeniable results.</p>
+                  <p><i class="fas fa-quote-left text-muted"></i> Katy took on a real challenge- a body that had been more or less inert for decades -- 
+                    and carefully, strategically, and effectively created a course for improvement with real, undeniable results.
+                    <i class="fas fa-quote-right text-muted"></i></p>
+                    <h4>--Brian, Los Angeles</h4>
               </div>
             </div>
           </div>
@@ -130,11 +136,11 @@
               <div class="card">
                   <img class="testimonialImages" src="./images/succulent.jpg" alt="plant"/>
                   <div class="testimonialText">
-                <h4>John, Beverly Hills, CA</h4>
-                <p>
+                <p> <i class="fas fa-quote-left text-muted"></i>
                     I met Katy when I decided to get therapy for my chronic back problem. I approached Pilates with much trepidation, but she quickly dispelled my nervousness with her professional manner.
                      She is very thoughtful in her approach to students and has helped me tremendously.
-                </p>
+                     <i class="fas fa-quote-right text-muted"></i></p>
+                     <h4>--John, Beverly Hills, CA</h4>
               </div>
               </div>
           </div>
@@ -142,11 +148,11 @@
               <div class="card">
                   <img class="testimonialImages" src="./images/succulent.jpg" alt="plant"/>
                   <div class="testimonialText">
-                  <h4>Heather, Los Angeles, CA</h4>
-                  <p>
+                  <p><i class="fas fa-quote-left text-muted"></i>
                       Katy is an incredible instructor. She’s patient, extremely attentive to each client and is always extremely encouraging and positive, even at 6am.  She guides you through every exercise, helping you to engage all muscles while also focusing on breath, and reminding you that even when it seems too hard that “yes, you can”.
                        Katy’s classes are never boring and always challenging making me feel better both mentally and physically
-                  </p>
+                       <i class="fas fa-quote-right text-muted"></i> </p>
+                  <h4>--Heather, Los Angeles, CA</h4>
               </div>
               </div>
           </div>

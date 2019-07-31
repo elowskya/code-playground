@@ -89,7 +89,7 @@ p {
 }
 
 .jumbotronText {
-    margin-top: -3%;
+    margin-top: 3%;
 }
 
 #schedule {
@@ -182,6 +182,8 @@ p {
   .testimonialText {
       text-align: justify;
       padding: 5%;
+      font-family: 'Times New Roman', Times, serif;
+      line-height: 1.5;
   }
 
   h4 {
@@ -226,12 +228,24 @@ p {
       background-size: cover;
       opacity: 0.9;
   }
+
+  .aboutParagraphTop {
+    padding: 0 5% 0 5%;
+    margin-top: 8%;
+    text-align: justify;
+    padding-top: 2%;
+    font-family: 'El Messiri', sans-serif;
+    line-height: 1.5;
+  }
   .aboutParagraph {
-      padding-right: 2%;
-      padding-left: 2%;
+      padding: 0 5% 0 5%;
+      margin-top: 4%;
       text-align: justify;
       padding-top: 2%;
-  }
+      font-family: 'El Messiri', sans-serif;
+      line-height: 1.5;
+    }
+
 
   .horizontalLine {
     width: 60vw;
