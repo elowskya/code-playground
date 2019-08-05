@@ -6,7 +6,11 @@ body {
     font-family: 'El Messiri', sans-serif;
     text-align: center;
     background-color:  #F6F4EF;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
+    max-width: 100%;
+    display: block;
+    height: auto;
+
 }
 
 .lead {
