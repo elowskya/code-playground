@@ -10,7 +10,6 @@ body {
     /* max-width: 100%;
     display: block;
     height: auto; */
-
 }
 
 .lead {
@@ -84,7 +83,7 @@ p {
 
 .header {
     background-image: url("../images/warriorPose.jpg");
-    background-size: cover, contain;
+    background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     height: 100vh;
@@ -259,10 +258,9 @@ p {
     display: inline-block;
   }
 
-  @media (max-width: 800px) {
+  /* @media (max-width: 800px) {
     .header {
        background-color: bisque;
-       background-image: url("../images/openWindowBackBend.jpg");
        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     }
 
@@ -282,4 +280,4 @@ p {
         background-color: bisque;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     }
-  }
+  } */
