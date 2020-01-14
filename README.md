@@ -26,7 +26,7 @@
 <p>This is unique to note since Heroku typically doesn't host static sites, I have a static server setup in the index.js and package.json files</p>
 
 <h3>VIEW DEMO SITE:</h3>
-<a href="https://elowskya.github.io/rex/">https://elowskya.github.io/rex/</a>
+<a href="https://elowskya.github.io/code-playground/">https://elowskya.github.io/code-playground/</a>
 
 <h3>VIEW DEMO SITE ON HEROKU</h3>
-<a href="https://git.heroku.com/mind-body-lates.git">https://git.heroku.com/mind-body-lates.git</a>
+<a href="http://mind-body-lates.herokuapp.com/">http://mind-body-lates.herokuapp.com/</a>
