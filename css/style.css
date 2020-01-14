@@ -1,17 +1,14 @@
-navbar {
-    position: sticky;  
-}
-
 body {
     font-family: 'El Messiri', sans-serif;
     text-align: center;
     background-color:  #F6F4EF;
-    width: 100%;
-    position: center;
-    /* overflow-x: hidden; */
-    /* max-width: 100%;
-    display: block;
-    height: auto; */
+    margin: 0 auto;
+}
+
+.headerImage {
+    width: 20%;
+    border-radius: 50%;
+    margin: 2% 0;
 }
 
 .lead {
@@ -27,14 +24,13 @@ h1 {
 
 h2 {
     font-family: 'Marck Script', cursive;
-    font-size: 7vh;
+    font-size: 325%;
     font-weight: 700;
-    padding-top: 5%;
+    margin: 2% 0;
 }
 
 .katyProfilePic img {
     height: 70vh;
-    margin-top: 5%;
 }
 
 p {
@@ -42,16 +38,8 @@ p {
 }
 
 .testimonialImages {
-    /* padding: .5%; */
     height: 20vh;
     background-color: burlywood;
-}
-
-.indexText {
-    color: black;
-    font-size: 30%;
-    position: relative;
-    text-align: center;
 }
 
 .card-title {
@@ -60,51 +48,42 @@ p {
     font-family: 'Times New Roman', Times, serif;
     text-decoration: #020202;
     align-content: top;
-    padding-top: 43%;
 }   
- 
-.card {
-    border: none;
-}
 
 .card-img-top {
     margin: 1%;
 }
 
 
-#footer {
+footer {
     background-color: black;
-    padding: 3%;
+    padding: 1% 0;
     color: white;
+    text-align: left;
+    font-size: 80%;
+    color: white;
+}
 
+footer a {
+    color:burlywood;
 }
 
 .container-fluid {
     align-content: center;
 }
 
-.header {
-    background-image: url("../images/warriorPose.jpg");
+.jumbotron {
+    background-image: url("../images/childPose.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-position: center;
     height: 100vh;
     color: black;
-    padding-bottom: 0;
+    margin: 0 auto;
 }
 
 .jumbotronText {
     margin-top: 3%;
-}
-
-#schedule {
-    /* margin: 0; */
-    padding: 0;
-    background-image: url("./images/meditating.jpg");
-    background-repeat: no-repeat;
-    background-size: cover, contain;
-    background-attachment: fixed;
-    height: 50vh;
 }
 
 /* quick reset and base styles */
@@ -153,10 +132,6 @@ p {
     transform: translateY(0);
   }
 
-  .card-deck {
-      padding: 1%;
-  }
-
   .card-text {
     font-weight: 600;
     font-family: 'Times New Roman', Times, serif;
@@ -167,21 +142,22 @@ p {
       font-size: 10vh;
   }
 
-  .card-columns {
-      padding: 3%;
-  }
-  .contactContainer {
-      background-image: url("../images/meditating.jpg");
+  .subscribe {
+      background-image: url("../images/succulent1.jpg");
       background-repeat: no-repeat;
-      background-attachment: fixed;
       background-size: cover;
+      background-position: center;
   }
 
-  .subscribe {
-      background-image: url("../images/meditating.jpg");
-      background-repeat: no-repeat;
-      background-attachment: fixed;
-      background-size: cover;
+  .subscribe h2 {
+      text-shadow: 4px 4px 8px black;
+  }
+
+  .subscribe p {
+      font-size: x-large;
+      width: 65%;
+      margin: 0 auto;
+      margin-bottom: 1%;
   }
 
   .testimonialText {
@@ -195,31 +171,20 @@ p {
       color: black;
       font-size: 3vh;
   }
-
-  .divCheckbox {
-      color: black;
-  }
-  .contactCheckbox {
-      display: justify;
-      /* color: black; */
-  }
+  
   form {
-      margin-left: 30%;
-      margin-right: 30%;
-      background-color: whitesmoke;
-      opacity: 0.9;
-      padding: 5%;
-      background-size: 50%;
       color: black;
-      display: inline-block;
-      text-align: justify; 
+      text-align: center; 
   }
-
-  .form-row {
-      padding: 1%;
-  }
-
-  .about {
+form input {
+    color: black;
+    text-align: center;
+    /* border-radius: 5%; */
+    width: 25%;
+    padding: 1% 0;
+    background-color: white;
+}
+  .aboutImage {
       background-image: url("../images/succulent.jpg");
       background-repeat: no-repeat;
       background-attachment: fixed;
@@ -227,59 +192,15 @@ p {
   }
 
   .aboutDiv {
-      /* background-image: url("../images/silvia-agrasar-227575-unsplash.jpg"); */
       background-image: linear-gradient(to top left, bisque, whitesmoke);
       background-repeat: no-repeat;
       background-size: cover;
-      opacity: 0.9;
-  }
+    }
 
-  .aboutParagraphTop {
-    padding: 0 5% 0 5%;
-    margin-top: 8%;
-    text-align: justify;
-    padding-top: 2%;
-    font-family: 'El Messiri', sans-serif;
-    line-height: 1.5;
-  }
   .aboutParagraph {
-      padding: 0 5% 0 5%;
       margin-top: 4%;
       text-align: justify;
       padding-top: 2%;
       font-family: 'El Messiri', sans-serif;
       line-height: 1.5;
     }
-
-
-  .horizontalLine {
-    width: 60vw;
-    height: 2px;
-    margin-top: 3%;
-    background-color: black;
-    display: inline-block;
-  }
-
-  /* @media (max-width: 800px) {
-    .header {
-       background-color: bisque;
-       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    }
-
-    .about {
-        display: grid;
-    }
-
-    #services {
-        display: grid;
-    }
-
-    .testimonials {
-        display: grid;
-    }
-
-    .subscribe {
-        background-color: bisque;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    }
-  } */

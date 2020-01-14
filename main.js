@@ -1,17 +1,19 @@
-
-// (function() {
-//   'use strict';
-//   window.addEventListener('load', function() {
-//     var forms = document.getElementsByClassName('needs-validation');
-//     // Loop over them and prevent submission
-//     var validation = Array.prototype.filter.call(forms, function(form) {
-//       form.addEventListener('submit', function(event) {
-//         if (form.checkValidity() === false) {
-//           event.preventDefault();
-//           event.stopPropagation();
-//         } 
-//         form.classList.add('was-validated');
-//       }, false);
-//     });
-//   }, false);
-// })();
+$('#contactForm').submit(function(e) {
+    var name = document.getElementById('inputName');
+    var email = document.getElementById('inputEmail');
+    message = document.getElementById('inputMessage');
+    
+    if (!name.value || !email.value || ! message.value) {
+      alertify.error("please check your entries")
+     } else {
+      $.ajax({
+        url:"https://formspree.io/elowskya@mail.gvsu.edu",
+        method: "POST",
+        data: $(this).serialize(),
+        dataType: "json"
+      });
+       e.preventDefault()
+       $this.get(0).reset()
+       alertify.success('Message sent!')
+     }
+  })
