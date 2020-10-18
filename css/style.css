@@ -37,6 +37,10 @@ p {
     font-size: 3vh;
 }
 
+.row {
+    margin: 0;
+}
+
 .testimonialImages {
     height: 20vh;
     background-color: burlywood;
@@ -70,15 +74,14 @@ footer a {
 
 .container-fluid {
     align-content: center;
+    padding: 0;
 }
 
 .jumbotron {
-    background-image: url("../images/childPose.jpg");
+    background: url("../images/pexels-elly-fairytale-3823039.jpg") no-repeat center center;
     background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 100vh;
-    color: black;
+    height: 98vh;
+    text-shadow: 2px 2px 2px white;
     margin: 0 auto;
 }
 
@@ -130,6 +133,11 @@ footer a {
   
   .img__wrap:hover .img__description {
     transform: translateY(0);
+  }
+
+  .card {
+      background-color: white;
+      
   }
 
   .card-text {
